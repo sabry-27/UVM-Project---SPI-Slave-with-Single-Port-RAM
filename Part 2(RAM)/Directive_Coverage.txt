@@ -1,0 +1,298 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /ram_top/DUT/RAM_DUT_SVA
+=== Design Unit: work.ram_SVA
+=================================================================================
+
+Directive Coverage:
+    Directives                       6         6         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/ram_top/DUT/RAM_DUT_SVA/cover__Read_Address_Followed_By_Read_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(75)  5554 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__Write_Address_Followed_By_Write_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(64)  5631 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Fall_After_Rise 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(53)  4014 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Rise_After_Read_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(42)  4341 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Deasserted_During_Input 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(31)  15751 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__Reset_Outputs 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(19)   446 Covered   
+
+=================================================================================
+=== Instance: /ram_coverage_collector_pkg
+=== Design Unit: work.ram_coverage_collector_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          9        na        na        na
+            Covergroup Bins         24        24         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_collector_pkg/ram_coverage/RAM_cg 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    24         24          -                      
+    missing/total bins:                                     0         24          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint CMD_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CMD_TRANS_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint RX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint TX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint WR_DATA_AFTER_WR_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint RD_DATA_AFTER_RD_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint FULL_SEQUENCE                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross CMD_RX_VALID_cross                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross RD_DATA_TX_VALID_cross                      100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ram_coverage_collector_pkg::ram_coverage::RAM_cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    24         24          -                      
+    missing/total bins:                                     0         24          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint CMD_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                   6241          1          -    Covered              
+        bin write_data                                   4847          1          -    Covered              
+        bin read_addr                                    6149          1          -    Covered              
+        bin read_data                                    4763          1          -    Covered              
+    Coverpoint CMD_TRANS_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr_to_write_data                     4586          1          -    Covered              
+        bin write_addr_to_read_addr                         1          1          -    Covered              
+        bin write_data_to_write_addr                     2024          1          -    Covered              
+        bin write_data_to_read_addr                      2562          1          -    Covered              
+        bin read_addr_to_write_addr                         1          1          -    Covered              
+        bin read_addr_to_read_data                       4508          1          -    Covered              
+        bin read_data_to_write_addr                      2562          1          -    Covered              
+        bin read_data_to_read_addr                       1946          1          -    Covered              
+    Coverpoint RX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rx_valid_0                                   1069          1          -    Covered              
+        bin rx_valid_1                                  20931          1          -    Covered              
+    Coverpoint TX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin tx_valid_0                                  17578          1          -    Covered              
+        bin tx_valid_1                                   4422          1          -    Covered              
+    Coverpoint WR_DATA_AFTER_WR_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin wr_data_after_wr_addr                        4586          1          -    Covered              
+    Coverpoint RD_DATA_AFTER_RD_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rd_data_after_rd_addr                        4508          1          -    Covered              
+    Coverpoint FULL_SEQUENCE                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin full_seq                                     1912          1          -    Covered              
+    Cross CMD_RX_VALID_cross                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_data,rx_valid_1>                   4523          1          -    Covered              
+            bin <write_data,rx_valid_1>                  4605          1          -    Covered              
+            bin <read_addr,rx_valid_1>                   5870          1          -    Covered              
+            bin <write_addr,rx_valid_1>                  5933          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin rx_not_valid                      1069                     -    Occurred             
+    Cross RD_DATA_TX_VALID_cross                      100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_data,tx_valid_1>                   4422          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin tx_not_valid                     17578                     -    Occurred             
+            ignore_bin not_read_data                    17237                     -    Occurred             
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_collector_pkg/ram_coverage/RAM_cg 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    24         24          -                      
+    missing/total bins:                                     0         24          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint CMD_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CMD_TRANS_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint RX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint TX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint WR_DATA_AFTER_WR_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint RD_DATA_AFTER_RD_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint FULL_SEQUENCE                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross CMD_RX_VALID_cross                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross RD_DATA_TX_VALID_cross                      100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ram_coverage_collector_pkg::ram_coverage::RAM_cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    24         24          -                      
+    missing/total bins:                                     0         24          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint CMD_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                   6241          1          -    Covered              
+        bin write_data                                   4847          1          -    Covered              
+        bin read_addr                                    6149          1          -    Covered              
+        bin read_data                                    4763          1          -    Covered              
+    Coverpoint CMD_TRANS_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr_to_write_data                     4586          1          -    Covered              
+        bin write_addr_to_read_addr                         1          1          -    Covered              
+        bin write_data_to_write_addr                     2024          1          -    Covered              
+        bin write_data_to_read_addr                      2562          1          -    Covered              
+        bin read_addr_to_write_addr                         1          1          -    Covered              
+        bin read_addr_to_read_data                       4508          1          -    Covered              
+        bin read_data_to_write_addr                      2562          1          -    Covered              
+        bin read_data_to_read_addr                       1946          1          -    Covered              
+    Coverpoint RX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rx_valid_0                                   1069          1          -    Covered              
+        bin rx_valid_1                                  20931          1          -    Covered              
+    Coverpoint TX_VALID_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin tx_valid_0                                  17578          1          -    Covered              
+        bin tx_valid_1                                   4422          1          -    Covered              
+    Coverpoint WR_DATA_AFTER_WR_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin wr_data_after_wr_addr                        4586          1          -    Covered              
+    Coverpoint RD_DATA_AFTER_RD_ADDR                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rd_data_after_rd_addr                        4508          1          -    Covered              
+    Coverpoint FULL_SEQUENCE                          100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin full_seq                                     1912          1          -    Covered              
+    Cross CMD_RX_VALID_cross                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_data,rx_valid_1>                   4523          1          -    Covered              
+            bin <write_data,rx_valid_1>                  4605          1          -    Covered              
+            bin <read_addr,rx_valid_1>                   5870          1          -    Covered              
+            bin <write_addr,rx_valid_1>                  5933          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin rx_not_valid                      1069                     -    Occurred             
+    Cross RD_DATA_TX_VALID_cross                      100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <read_data,tx_valid_1>                   4422          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin tx_not_valid                     17578                     -    Occurred             
+            ignore_bin not_read_data                    17237                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/ram_top/DUT/RAM_DUT_SVA/cover__Read_Address_Followed_By_Read_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(75)  5554 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__Write_Address_Followed_By_Write_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(64)  5631 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Fall_After_Rise 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(53)  4014 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Rise_After_Read_Data 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(42)  4341 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__TX_Valid_Deasserted_During_Input 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(31)  15751 Covered   
+/ram_top/DUT/RAM_DUT_SVA/cover__Reset_Outputs 
+                                         ram_SVA Verilog  SVA  ram_sva.sv(19)   446 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 6
+
+Total Coverage By Instance (filtered view): 100.00%
+
