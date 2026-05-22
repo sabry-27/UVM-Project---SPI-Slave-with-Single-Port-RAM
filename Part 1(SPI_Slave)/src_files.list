@@ -1,0 +1,17 @@
+SPI_slave.sv
+SPI_golden.sv
+SPI_interface.sv
+SPI_assertion.sv
+SPI_config.sv
+SPI_sequence_item.sv
+SPI_main_sequence.sv
+SPI_reset_sequence.sv
+SPI_driver.sv
+SPI_monitor.sv
+SPI_sequencer.sv
+SPI_agent.sv
+SPI_coverage.sv
+SPI_score_board.sv
+SPI_enviroment.sv
+SPI_test.sv
+SPI_top.sv
