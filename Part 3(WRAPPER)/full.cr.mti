@@ -1,0 +1,674 @@
+{D:/College/DigitalVerification/FULL SPI ENV/SPI_interface.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequence_item.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequence_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_sequence_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequence_item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_env.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_env_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_env.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_agent_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package ram_scoreboard_pkg
+-- Importing package ram_coverage_collector_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/GM_SPI_SLAVE.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/GM_SPI_SLAVE.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module GM_SPI_SLAVE
+
+Top level modules:
+	GM_SPI_SLAVE
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_agent.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package WRAPPER_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_enviroment_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package SPI_score_board_pkg
+-- Importing package SPI_coverage1_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_main_sequence_pkg
+-- Importing package SPI_reset_sequence_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_test.sv(7): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_driver_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_driver.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_score_board.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_score_board.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_score_board_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_score_board.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_top.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_top.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/SPI_top.sv(1): (vlog-13233) Design unit "SPI_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package SPI_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_test_pkg
+-- Importing package SPI_enviroment_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package SPI_score_board_pkg
+-- Importing package SPI_coverage1_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_main_sequence_pkg
+-- Importing package SPI_reset_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_read_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_read_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_write_read_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_read_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface WRAPPER_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_coverage1_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_coverage.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_wrapper.v} {1 {vlog -work work -vopt -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_wrapper.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module WRAPPER
+
+Top level modules:
+	WRAPPER
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_scoreboard_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_scoreboard.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_slave.v} {1 {vlog -work work -vopt -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_slave.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLAVE
+
+Top level modules:
+	SLAVE
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_top.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package WRAPPER_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_test_pkg
+-- Importing package WRAPPER_environment_pkg
+-- Importing package WRAPPER_agent_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_sequence_item_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_sequencer_pkg
+-- Importing package WRAPPER_scoreboard_pkg
+-- Importing package WRAPPER_coverage_pkg
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package ram_scoreboard_pkg
+-- Importing package ram_coverage_collector_pkg
+-- Importing package SPI_enviroment_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_score_board_pkg
+-- Importing package SPI_coverage1_pkg
+-- Importing package WRAPPER_reset_sequence_pkg
+-- Importing package WRAPPER_write_only_sequence_pkg
+-- Importing package WRAPPER_read_only_sequence_pkg
+-- Importing package WRAPPER_write_read_sequence_pkg
+-- Importing package WRAPPER_directed_sequence_pkg
+-- Compiling module WRAPPER_top
+
+Top level modules:
+	WRAPPER_top
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_only_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_only_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_write_only_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_write_only_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_shared.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_shared.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_test_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_test.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_config_pkg
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package ram_scoreboard_pkg
+-- Importing package ram_coverage_collector_pkg
+-- Importing package ram_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_coverage_collector_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_coverage.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_directed_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_directed_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_directed_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_directed_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_coverage.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_sequence_item.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_sequence_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_sequence_item.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_config_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_sequence_item_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_sequencer_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_agent.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_env.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_environment_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_agent_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_sequence_item_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_sequencer_pkg
+-- Importing package WRAPPER_scoreboard_pkg
+-- Importing package WRAPPER_coverage_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_env.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_golden.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_golden.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave
+
+Top level modules:
+	SPI_slave
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_scoreboard_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_scoreboard.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_read_only_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_read_only_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_read_only_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_read_only_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_config.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_monitor_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_monitor.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_main_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_sequence_item_pkg
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/SPI_main_sequence.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_config.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_assertion.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_assertion.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_slave_assertions
+
+Top level modules:
+	spi_slave_assertions
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_reset_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_reset_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_reset_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_reset_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/RAM.v} {1 {vlog -work work -vopt -stats=none {D:/College/DigitalVerification/FULL SPI ENV/RAM.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_slave.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_slave.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SLAVE
+
+Top level modules:
+	SLAVE
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_reset_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_reset_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_reset_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_reset_sequence.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_interface.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/ram_interface.sv(1): (vlog-13233) Design unit "ram_interface_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package ram_interface_sv_unit
+-- Importing package shared_pkg
+-- Compiling interface ram_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequence_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_sequence.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/GM_WRAPPER.v} {1 {vlog -work work -vopt -stats=none {D:/College/DigitalVerification/FULL SPI ENV/GM_WRAPPER.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module GM_WRAPPER
+
+Top level modules:
+	GM_WRAPPER
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_sequence_item.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_sequence_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequence_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_sequence_item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_enviroment.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_enviroment.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_enviroment_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_enviroment.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package SPI_score_board_pkg
+-- Importing package SPI_coverage1_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_config_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_config.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_agent_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_agent.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package WRAPPER_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_environment_pkg
+-- Importing package WRAPPER_agent_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_sequence_item_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_sequencer_pkg
+-- Importing package WRAPPER_scoreboard_pkg
+-- Importing package WRAPPER_coverage_pkg
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package ram_scoreboard_pkg
+-- Importing package ram_coverage_collector_pkg
+-- Importing package SPI_enviroment_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequence_item_pkg
+-- Importing package SPI_monitor_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_score_board_pkg
+-- Importing package SPI_coverage1_pkg
+-- Importing package WRAPPER_reset_sequence_pkg
+-- Importing package WRAPPER_write_only_sequence_pkg
+-- Importing package WRAPPER_read_only_sequence_pkg
+-- Importing package WRAPPER_write_read_sequence_pkg
+-- Importing package WRAPPER_directed_sequence_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_test.sv(12): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_SVA.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_SVA.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module WRAPPER_assertions
+
+Top level modules:
+	WRAPPER_assertions
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_top.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_top.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/College/DigitalVerification/FULL SPI ENV/ram_top.sv(1): (vlog-13233) Design unit "ram_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package ram_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_test_pkg
+-- Importing package ram_config_pkg
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_monitor_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package ram_scoreboard_pkg
+-- Importing package ram_coverage_collector_pkg
+-- Importing package ram_sequence_pkg
+-- Compiling module ram_top
+
+Top level modules:
+	ram_top
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_monitor.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package WRAPPER_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package WRAPPER_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/WRAPPER_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/SPI_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/SPI_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequence_item_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/SPI_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/GM_RAM.v} {1 {vlog -work work -vopt -stats=none {D:/College/DigitalVerification/FULL SPI ENV/GM_RAM.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module GM_RAM
+
+Top level modules:
+	GM_RAM
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_sva.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_sva.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ram_SVA
+
+Top level modules:
+	ram_SVA
+
+} {} {}} {D:/College/DigitalVerification/FULL SPI ENV/ram_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/College/DigitalVerification/FULL SPI ENV/ram_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequencer_pkg
+** Note: (vlog-2286) D:/College/DigitalVerification/FULL SPI ENV/ram_sequencer.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}
